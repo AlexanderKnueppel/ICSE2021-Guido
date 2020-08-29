@@ -1,0 +1,3 @@
+#!/bin/sh
+export PATH=$PATH:./CPAchecker-1.9-unix/lib/native
+java -cp "guido.core/target/classes/:guido.core/libs/*:guido.core/libs/cdt/*:guido.network/libs/*:guido.network/bin:guido.verification.systems/libs/*:guido.workingPools/bin:guido.logger/bin:guido.verification.systems/bin:CPAchecker-1.9-unix/lib/*:CPAchecker-1.9-unix/lib/java/runtime/*" guido.network.server.Server cpacheckerprojects/cpa_job.xml CPAChecker
